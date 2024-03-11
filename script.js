@@ -138,7 +138,6 @@ function Game() {
 
 	while (choice === true) {
 		let repChoice = true;
-		console.log(repChoice);
 		let game = prompt(`
 What's your choice?
 	- Player VS CPU    (VS)
@@ -154,7 +153,6 @@ What's your choice?
 					console.clear();
 				} else if (repeat.toLowerCase() === 'no') {
 					repChoice = false;
-					console.log(repChoice);
 				} else {
 					console.log('wrong value');
 				}
@@ -170,7 +168,6 @@ What's your choice?
 					console.clear();
 				} else if (repeat.toLowerCase() === 'no') {
 					repChoice = false;
-					console.log(repChoice);
 				} else {
 					console.log('wrong value');
 				}
